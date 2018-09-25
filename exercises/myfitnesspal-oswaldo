@@ -1,0 +1,17 @@
+# Nutritional values snickers
+calories = 22.0
+fat = 10.0
+carbohydrate = 1.10
+protein = 4.5
+
+# Input amount of eaten snickers by the user
+amount_snickers = input("How many snickers have you eaten? ")
+
+# Output amount of eaten snickers by the user
+print("You have eaten a total of " + amount_snickers + " snickers")
+
+# Output consumed of total nutritions by the user
+print("You have consumed a total of " + str(int(amount_snickers) * calories) + " calories")
+print("You have consumed a total of " + str(int(amount_snickers) * fat) + " fat")
+print("You have consumed a total of " + str(int(amount_snickers) * carbohydrate) + " carbohyrate")
+print("You have consumed a total of " + str(int(amount_snickers) * protein) + " protein")
